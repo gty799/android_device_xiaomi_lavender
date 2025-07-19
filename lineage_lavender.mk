@@ -33,6 +33,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys \
     DeviceProduct=lavender
 
+MISTOS_MAINTAINER="MiTESH"
+TARGET_ENABLE_BLUR := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+#WITH_GMS := true
+#TARGET_USES_MINI_GAPPS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+
 # Device identifier
 PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
