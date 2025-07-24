@@ -25,3 +25,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/clover_lavender.mk
 
+COMMON_LUNCH_CHOICES := \
+    clover_lavender-user \
+    clover_lavender-userdebug \
+    clover_lavender-eng
+
