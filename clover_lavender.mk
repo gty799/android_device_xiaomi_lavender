@@ -33,10 +33,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys \
     DeviceProduct=lavender
 
-TARGET_ENABLE_BLUR := false
+TARGET_ENABLE_BLUR := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
 PRODUCT_NAME := clover_lavender
