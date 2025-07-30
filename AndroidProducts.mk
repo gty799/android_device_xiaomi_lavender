@@ -23,10 +23,10 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/clover_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    clover_lavender-user \
-    clover_lavender-userdebug \
-    clover_lavender-eng
+    lineage_lavender-user \
+    lineage_lavender-userdebug \
+    lineage_lavender-eng
 
