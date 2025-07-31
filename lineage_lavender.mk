@@ -40,6 +40,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := false
 WITH_BCR := true
+ro.paranoid.maintainer=Timofeyvv8
 
 # Device identifier
 PRODUCT_NAME := lineage_lavender
