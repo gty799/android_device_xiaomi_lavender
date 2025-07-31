@@ -36,10 +36,12 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     camera.sdm660 \
-    libMegviiFacepp-0.5.2
+    libMegviiFacepp-0.5.2 \
+    GCamGOPrebuilt-V2
 
 # Consumerir
 BOARD_HAVE_IR := true
+
 
 # Device properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
