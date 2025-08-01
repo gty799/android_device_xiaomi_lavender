@@ -39,7 +39,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := false
-WITH_BCR := true
+WITH_BCR := false
 ro.paranoid.maintainer=Timofeyvv8
 
 # Device identifier
