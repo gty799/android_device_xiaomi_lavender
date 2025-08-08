@@ -38,9 +38,10 @@ TARGET_BUILD_DEVICE_AS_WEBCAM := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := true
+WITH_GMS := false
 BUILD_BCR := true
 EVO_BUILD_TYPE := Unofficial
+TARGET_USES_PICO_GAPPS := true
 # ro.paranoid.maintainer=Timofeyvv8
 
 # Device identifier
