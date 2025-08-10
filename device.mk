@@ -15,9 +15,6 @@ DEVICE_PATH := device/xiaomi/lavender
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.paranoid.maintainer=Timofeyvv8
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	 $(DEVICE_PATH)/overlay \
