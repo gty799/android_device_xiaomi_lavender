@@ -25,6 +25,7 @@
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit from our custom product configuration
+TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build Description
@@ -32,6 +33,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys" \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys \
     DeviceProduct=lavender
+
+# Camera Info
+AXION_CAMERA_REAR_INFO := 48,5
+AXION_CAMERA_FRONT_INFO := 13
+
+# Maintainer 
+AXION_MAINTAINER := Timofeyvv8
+
+# Processor
+AXION_PROCESSOR := Snapdragon_660
 
 TARGET_ENABLE_BLUR := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
