@@ -33,20 +33,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys \
     DeviceProduct=lavender
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.paranoid.maintainer=Timofeyvv8
-
 TARGET_ENABLE_BLUR := true
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := true
-
-# BUILD_BCR := true
-# EVO_BUILD_TYPE := Unofficial
-# TARGET_USES_PICO_GAPPS := true
-# ro.paranoid.maintainer=Timofeyvv8
 
 # Device identifier
 PRODUCT_NAME := lineage_lavender
