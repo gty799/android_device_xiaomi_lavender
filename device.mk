@@ -36,6 +36,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     camera.sdm660 \
+    GCamGOPrebuilt-V2 \
     libMegviiFacepp-0.5.2
 
 # Consumerir
